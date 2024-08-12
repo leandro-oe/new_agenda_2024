@@ -31,7 +31,7 @@ Bem-vindo ao projeto de **Agenda Eletrônica**, uma solução desenvolvida em PH
 1. **Clone o repositório:**
 
     ```bash
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
+    git clone https://github.com/leandro-oe/new_agenda_2024.git
     ```
 
 2. **Configure o ambiente local:**
