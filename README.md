@@ -26,30 +26,29 @@ Bem-vindo ao projeto de **Agenda Eletrônica**, uma solução desenvolvida em PH
 - **Banco de Dados:** MySQL.
 - **Frontend:** HTML, CSS e JavaScript utilizando o tema **Admin LTE**.
 
-## 📚 Como Usar
+## 📚 Como Instalar no Servidor Local
 
 1. **Clone o repositório:**
 
     ```bash
-    https://github.com/leandro-oe/new_agenda_2024.git
+    git clone https://github.com/seu-usuario/nome-do-repositorio.git
     ```
 
-2. **Configure o banco de dados:**
-   - Crie um banco de dados MySQL.
-   - Importe o arquivo `database.sql` para configurar as tabelas necessárias.
+2. **Configure o ambiente local:**
+   - Certifique-se de que você tem um servidor local como [XAMPP](https://www.apachefriends.org/), [WAMP](https://www.wampserver.com/), ou [MAMP](https://www.mamp.info/), que incluem Apache, PHP e MySQL.
+   - Coloque os arquivos do projeto dentro da pasta `htdocs` (XAMPP) ou `www` (WAMP).
 
-3. **Atualize as configurações:**
+3. **Configure o banco de dados:**
+   - Inicie o servidor MySQL através do painel de controle do seu servidor local.
+   - Acesse o phpMyAdmin (geralmente em `http://localhost/phpmyadmin`).
+   - Crie um banco de dados com o nome desejado.
+   - Importe o arquivo `new_agenda.sql` disponível no projeto para criar as tabelas necessárias.
+
+4. **Atualize as configurações de conexão com o banco de dados:**
    - Edite o arquivo `config.php` com as informações do seu banco de dados (host, usuário, senha e nome do banco).
 
-4. **Inicie o servidor:**
-   - Utilize o servidor embutido do PHP para iniciar o projeto:
-     ```bash
-     php -S localhost:8000
-     ```
-     - Ou instale um servidor com apache, PHP e MySql e execute pelo localhost
-
 5. **Acesse o sistema:**
-   - Abra o navegador e acesse `http://localhost:8000`.
+   - Abra o navegador e acesse `http://localhost/nome-do-repositorio`, onde `nome-do-repositorio` é o nome da pasta onde o projeto foi colocado.
 
 ## 🎨 Tema e Interface
 
@@ -62,5 +61,4 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 ---
 
 **Pronto para começar?** Experimente esta Agenda Eletrônica e descubra uma nova forma de gerenciar seus contatos!
-
 
