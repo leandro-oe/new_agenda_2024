@@ -58,6 +58,10 @@ Este projeto utiliza o tema **Admin LTE** para proporcionar uma experiência vis
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
 
+### Resumo sobre a licença MIT
+
+A licença MIT permite o uso livre do software, incluindo modificação e distribuição, desde que o aviso de copyright seja mantido. O software é fornecido "como está", sem garantias e sem responsabilidade dos autores por eventuais problemas.
+
 ---
 
 **Pronto para começar?** Experimente esta Agenda Eletrônica e descubra uma nova forma de gerenciar seus contatos!
