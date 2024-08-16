@@ -53,7 +53,7 @@ include_once('sair.php');
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
 <?php
-  // Inclui o arquivo de configuração de conexão com o banco de dados
+// Inclui o arquivo de configuração de conexão com o banco de dados
 include_once('../config/conexao.php');
 
 // Obtém o email do usuário logado a partir da sessão
@@ -157,10 +157,10 @@ try {
             // Verifica se a variável $foto_user é igual a 'avatar-padrao.png'
             if ($foto_user == 'avatar-padrao.png') {
                 // Exibe a imagem do avatar padrão
-                echo '<img src="../img/avatar_p/' . $foto_user . '" alt="' . $foto_user . '" title="' . $foto_user . '" style="width: 40px; border-radius: 100%;">';
+                echo '<img src="../img/avatar_p/' . $foto_user . '" alt="' . $foto_user . '" title="' . $nome_user . '" style="width: 40px; border-radius: 100%;">';
             } else {
                 // Exibe a imagem do usuário
-                echo '<img src="../img/user/' . $foto_user . '" alt="' . $foto_user . '" title="' . $foto_user . '" style="width: 40px; border-radius: 100%;">';
+                echo '<img src="../img/user/' . $foto_user . '" alt="' . $foto_user . '" title="' . $nome_user . '" style="width: 40px; border-radius: 100%;">';
             }
           ?>
         </div>
