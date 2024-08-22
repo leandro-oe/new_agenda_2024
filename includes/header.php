@@ -165,7 +165,7 @@ try {
           ?>
         </div>
         <div class="info">
-          <a href="#" class="d-block"><?php echo $nome_user; ?></a>
+          <a href="home.php?acao=perfil" class="d-block"><?php echo $nome_user; ?></a>
         </div>
       </div>
 
