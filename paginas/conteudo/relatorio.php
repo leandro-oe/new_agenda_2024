@@ -18,13 +18,13 @@
               </div>
               <!-- /.card-header -->
               <div class="card-body">
-                <table id="example1" class="table table-bordered table-hover">
+                <table id="example" class="display nowrap" style="width:100%">
                   <thead>
                   <tr>
-                    <th>#</th>
-                    <th>Foto</th>
+                    <th style="width: 5%; text-align:center">#</th>
+                    <th style="text-align:center">Foto</th>
                     <th>Nome</th>
-                    <th>Telefone</th>
+                    <th style="text-align:left">Telefone</th>
                     <th>E-mail</th>
                     <th>Ações</th>
                   </tr>
@@ -56,8 +56,8 @@
                   ?>
                                       
                     <tr>
-                      <td><?php echo $cont++; ?></td>
-                      <td>
+                      <td style="width: 5%; text-align:center"><?php echo $cont++; ?></td>
+                      <td style="text-align:center">
                       <?php
             // Verifica se a variável $foto_user é igual a 'avatar-padrao.png'
             if ($show->foto_contatos == 'avatar-padrao.png') {
@@ -70,7 +70,7 @@
             ?>  
                      </td>
                       <td><?php echo $show->nome_contatos; ?></td>
-                      <td><?php echo $show->fone_contatos; ?></td>
+                      <td style="text-align:left"><?php echo $show->fone_contatos; ?></td>
                       <td><?php echo $show->email_contatos; ?></td>
                       
                       <td>
@@ -95,10 +95,10 @@
                   </tbody>
                   <tfoot>
                   <tr>
-                    <th>#</th>
-                    <th>Foto</th>
+                    <th style="width: 5%; text-align:center">#</th>
+                    <th style="text-align:center">Foto</th>
                     <th>Nome</th>
-                    <th>Telefone</th>
+                    <th style="text-align:left">Telefone</th>
                     <th>E-mail</th>
                     <th>Ações</th>
                   </tr>
