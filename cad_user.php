@@ -145,6 +145,7 @@
                               Dados inseridos com sucesso !!!
                           </div>
                       </div>';
+                      header("Refresh: 3; url=index.php");
               } else {
                   echo '<div class="container">
                           <div class="alert alert-danger alert-dismissible">

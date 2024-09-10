@@ -155,7 +155,7 @@
                         Os dados foram atualizados com sucesso.
                     </div>
                 </div>';
-                header("Refresh: 3, home.php");
+                header("Refresh: 3, home.php?acao=editar&id=".$id);
                   }else{
                     // Se não, exibe uma mensagem de erro
                     echo '<div class="alert alert-danger alert-dismissible">
